@@ -52,4 +52,12 @@
         android:layout_toEndOf="@+id/imageButton2"
         android:onClick="backColorClick"
         android:src="@drawable/ic_colorize_black_24dp" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="undoClick"
+        android:src="@drawable/ic_undo_black_24dp" />
 </RelativeLayout>

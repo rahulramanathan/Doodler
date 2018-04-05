@@ -71,6 +71,10 @@ public class CreateDoodle extends AppCompatActivity {
     {
         paintView.adJustStrokeWidth(-2);
     }
+    public void undoClick(View view)
+    {
+        paintView.undoPathChange();
+    }
     public void lineColorClick(View view)
     {
         RelativeLayout r1 = findViewById(R.id.r1);
